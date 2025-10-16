@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    color: white;
+    background-color: black;
+}
+.todo-container{
+    width: 100%;
+    max-width: 600px; 
+    background-color: rgb(34, 32, 32);
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgb(104, 99, 99);
+    border: 1px solid rgb(58, 56, 56);
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight:500px;
+    background-clip: text;
+    color: royalblue;
+}
+span{
+    color: white;
+}
+    
+input{
+    flex: 1;
+    width: 100%;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    background-color:rgb(43, 42, 42) ;
+    color:white;
+    border: 1px solid rgb(58, 56, 56);
+    margin-bottom: 20px; 
+
+
+}
+ input:focus{
+    border: 2px solid royalblue ;
+    
+} 
+input:hover{
+    border:2px solid royalblue;
+}
+.btn{
+    color: white;
+    border: none;
+    background-color: royalblue;
+    border-radius: 10px;
+    padding:15px 25px;
+    font-size:20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px; 
+    cursor: pointer;
+    
+}
+.btn:hover{
+    color: royalblue;
+    background-color:white ;
+    border: 3px solid royalblue;
+}
+
+li{
+    width: 100%;
+    background-color: rgb(58, 56, 56);
+    list-style: none;
+    font-size: 25px;
+    border: 1px solid royalblue;
+    border-radius: 10px;
+     padding:15px 25px;
+     margin-bottom: 20px;
+     word-wrap: break-word;
+     overflow-wrap: break-word;
+     white-space: normal;
+     
+
+}
+li:hover{
+    border: 3px solid royalblue;
+}
+.todobtn{
+    margin-left: 20px;
+    border-style: none;
+    background-color: transparent;
+    color: royalblue;
+    font-size: 15px;
+   cursor: pointer;
+}
